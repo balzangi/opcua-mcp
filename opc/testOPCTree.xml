@@ -1,0 +1,1519 @@
+<?xml version="1.0" encoding="utf-8"?>
+<UANodeSet LastModified="2026-09-24T06:50:51+01:00" xmlns="http://opcfoundation.org/UA/2011/03/UANodeSet.xsd" xmlns:uax="http://opcfoundation.org/UA/2008/02/Types.xsd" xmlns:si="http://www.siemens.com/OPCUA/2017/SimaticNodeSetExtensions">
+  <NamespaceUris>
+    <Uri>http://www.siemens.com/simatic-s7-opcua</Uri>
+    <Uri>http://Server interface_1</Uri>
+  </NamespaceUris>
+  <Models>
+    <Model ModelUri="http://www.siemens.com/simatic-s7-opcua" PublicationDate="2026-09-24T06:50:51+01:00" Version="1.0.0" />
+    <Model ModelUri="http://Server interface_1" PublicationDate="2026-09-24T06:50:51+01:00" Version="1.0.0" />
+  </Models>
+  <Aliases>
+    <Alias Alias="BOOL">i=1</Alias>
+    <Alias Alias="WORD">ns=1;i=3002</Alias>
+    <Alias Alias="INT">i=4</Alias>
+    <Alias Alias="REAL">i=10</Alias>
+    <Alias Alias="HasTypeDefinition">i=40</Alias>
+    <Alias Alias="HasComponent">i=47</Alias>
+    <Alias Alias="HasModellingRule">i=37</Alias>
+    <Alias Alias="HasSubtype">i=45</Alias>
+    <Alias Alias="Organizes">i=35</Alias>
+    <Alias Alias="HasProperty">i=46</Alias>
+    <Alias Alias="HasEncoding">i=38</Alias>
+  </Aliases>
+  <Extensions>
+    <Extension>
+      <si:Generator Product="TIA Portal" Edition="STEP 7 - Server Interface Generation" Version="V1.0.0" />
+    </Extension>
+  </Extensions>
+  <UAObject NodeId="ns=2;i=135" BrowseName="2:http://Server interface_1" ParentNodeId="i=11715">
+    <DisplayName>http://Server interface_1</DisplayName>
+    <References>
+      <Reference ReferenceType="HasTypeDefinition" IsForward="true">i=11616</Reference>
+      <Reference ReferenceType="HasProperty" IsForward="true">ns=2;i=136</Reference>
+      <Reference ReferenceType="HasProperty" IsForward="true">ns=2;i=137</Reference>
+      <Reference ReferenceType="HasProperty" IsForward="true">ns=2;i=138</Reference>
+      <Reference ReferenceType="HasProperty" IsForward="true">ns=2;i=139</Reference>
+      <Reference ReferenceType="HasProperty" IsForward="true">ns=2;i=140</Reference>
+      <Reference ReferenceType="HasProperty" IsForward="true">ns=2;i=141</Reference>
+      <Reference ReferenceType="HasProperty" IsForward="true">ns=2;i=142</Reference>
+      <Reference ReferenceType="HasProperty" IsForward="true">ns=2;i=143</Reference>
+      <Reference ReferenceType="HasProperty" IsForward="true">ns=2;i=144</Reference>
+      <Reference ReferenceType="Organizes" IsForward="false">i=11715</Reference>
+    </References>
+  </UAObject>
+  <UAVariable NodeId="ns=2;i=136" BrowseName="NamespaceUri" ParentNodeId="ns=2;i=135" DataType="i=12" AccessLevel="1">
+    <DisplayName>NamespaceUri</DisplayName>
+    <References>
+      <Reference ReferenceType="HasTypeDefinition" IsForward="true">i=68</Reference>
+    </References>
+    <Value>
+      <uax:String>http://Server interface_1</uax:String>
+    </Value>
+  </UAVariable>
+  <UAVariable NodeId="ns=2;i=137" BrowseName="NamespaceVersion" ParentNodeId="ns=2;i=135" DataType="i=12" AccessLevel="1">
+    <DisplayName>NamespaceVersion</DisplayName>
+    <References>
+      <Reference ReferenceType="HasTypeDefinition" IsForward="true">i=68</Reference>
+    </References>
+  </UAVariable>
+  <UAVariable NodeId="ns=2;i=138" BrowseName="NamespacePublicationDate" ParentNodeId="ns=2;i=135" DataType="i=13" AccessLevel="1">
+    <DisplayName>NamespacePublicationDate</DisplayName>
+    <References>
+      <Reference ReferenceType="HasTypeDefinition" IsForward="true">i=68</Reference>
+    </References>
+    <Value>
+      <uax:String>2026-09-24T07:50:51+01:00</uax:String>
+    </Value>
+  </UAVariable>
+  <UAVariable NodeId="ns=2;i=139" BrowseName="IsNamespaceSubset" ParentNodeId="ns=2;i=135" DataType="BOOL" AccessLevel="1">
+    <DisplayName>IsNamespaceSubset</DisplayName>
+    <References>
+      <Reference ReferenceType="HasTypeDefinition" IsForward="true">i=68</Reference>
+    </References>
+    <Value>
+      <uax:String>false</uax:String>
+    </Value>
+  </UAVariable>
+  <UAVariable NodeId="ns=2;i=140" BrowseName="StaticNodeIdTypes" ParentNodeId="ns=2;i=135" DataType="i=256" AccessLevel="1" ValueRank="1">
+    <DisplayName>StaticNodeIdTypes</DisplayName>
+    <References>
+      <Reference ReferenceType="HasTypeDefinition" IsForward="true">i=68</Reference>
+    </References>
+  </UAVariable>
+  <UAVariable NodeId="ns=2;i=141" BrowseName="StaticNumericNodeIdRange" ParentNodeId="ns=2;i=135" DataType="i=291" AccessLevel="1" ValueRank="1">
+    <DisplayName>StaticNumericNodeIdRange</DisplayName>
+    <References>
+      <Reference ReferenceType="HasTypeDefinition" IsForward="true">i=68</Reference>
+    </References>
+  </UAVariable>
+  <UAVariable NodeId="ns=2;i=142" BrowseName="StaticStringNodeIdPattern" ParentNodeId="ns=2;i=135" DataType="i=12" AccessLevel="1">
+    <DisplayName>StaticStringNodeIdPattern</DisplayName>
+    <References>
+      <Reference ReferenceType="HasTypeDefinition" IsForward="true">i=68</Reference>
+    </References>
+  </UAVariable>
+  <UAVariable NodeId="ns=2;i=143" BrowseName="DefaultRolePermissions" ParentNodeId="ns=2;i=135" DataType="i=96" AccessLevel="1" ValueRank="1">
+    <DisplayName>DefaultRolePermissions</DisplayName>
+    <References>
+      <Reference ReferenceType="HasTypeDefinition" IsForward="true">i=68</Reference>
+    </References>
+  </UAVariable>
+  <UAVariable NodeId="ns=2;i=144" BrowseName="DefaultAccessRestrictions" ParentNodeId="ns=2;i=135" DataType="i=95" AccessLevel="1">
+    <DisplayName>DefaultAccessRestrictions</DisplayName>
+    <References>
+      <Reference ReferenceType="HasTypeDefinition" IsForward="true">i=68</Reference>
+    </References>
+  </UAVariable>
+  <UAObjectType NodeId="ns=1;i=1004" BrowseName="1:SimaticInterfaceType" IsAbstract="false">
+    <DisplayName>SimaticInterfaceType</DisplayName>
+    <References>
+      <Reference ReferenceType="HasProperty" IsForward="true">ns=1;i=6010</Reference>
+      <Reference ReferenceType="HasProperty" IsForward="true">ns=1;i=6011</Reference>
+      <Reference ReferenceType="HasProperty" IsForward="true">ns=1;i=6014</Reference>
+      <Reference ReferenceType="HasSubtype" IsForward="false">i=58</Reference>
+    </References>
+  </UAObjectType>
+  <UAVariable NodeId="ns=1;i=6010" BrowseName="Icon" DataType="i=2003" AccessLevel="1">
+    <DisplayName>Icon</DisplayName>
+    <References>
+      <Reference ReferenceType="HasTypeDefinition" IsForward="true">i=68</Reference>
+      <Reference ReferenceType="HasModellingRule" IsForward="true">i=80</Reference>
+    </References>
+  </UAVariable>
+  <UAVariable NodeId="ns=1;i=6011" BrowseName="1:InterfaceUuid" DataType="i=14" AccessLevel="1">
+    <DisplayName>InterfaceUuid</DisplayName>
+    <References>
+      <Reference ReferenceType="HasTypeDefinition" IsForward="true">i=68</Reference>
+      <Reference ReferenceType="HasModellingRule" IsForward="true">i=80</Reference>
+    </References>
+  </UAVariable>
+  <UAVariable NodeId="ns=1;i=6014" BrowseName="1:InterfaceVersion" DataType="ns=1;i=3064" AccessLevel="1">
+    <DisplayName>InterfaceVersion</DisplayName>
+    <References>
+      <Reference ReferenceType="HasTypeDefinition" IsForward="true">i=68</Reference>
+      <Reference ReferenceType="HasModellingRule" IsForward="true">i=80</Reference>
+    </References>
+  </UAVariable>
+  <UAObject NodeId="ns=1;i=5001" BrowseName="Default Binary">
+    <DisplayName>Default Binary</DisplayName>
+    <References>
+      <Reference ReferenceType="HasTypeDefinition" IsForward="true">i=76</Reference>
+    </References>
+  </UAObject>
+  <UAObject NodeId="ns=1;s=ServerInterfaces" BrowseName="1:ServerInterfaces">
+    <DisplayName>ServerInterfaces</DisplayName>
+    <References>
+      <Reference ReferenceType="HasTypeDefinition" IsForward="true">i=61</Reference>
+      <Reference ReferenceType="Organizes" IsForward="true">ns=2;i=1</Reference>
+      <Reference ReferenceType="Organizes" IsForward="false">i=85</Reference>
+    </References>
+  </UAObject>
+  <UAObject NodeId="ns=2;i=1" BrowseName="2:Server interface_1" ParentNodeId="ns=1;s=ServerInterfaces">
+    <DisplayName>Server interface_1</DisplayName>
+    <References>
+      <Reference ReferenceType="HasTypeDefinition" IsForward="true">ns=1;i=1004</Reference>
+      <Reference ReferenceType="Organizes" IsForward="true">ns=2;i=28</Reference>
+      <Reference ReferenceType="Organizes" IsForward="true">ns=2;i=45</Reference>
+      <Reference ReferenceType="Organizes" IsForward="true">ns=2;i=67</Reference>
+      <Reference ReferenceType="Organizes" IsForward="true">ns=2;i=118</Reference>
+      <Reference ReferenceType="Organizes" IsForward="true">ns=2;i=147</Reference>
+    </References>
+  </UAObject>
+  <UAObject NodeId="ns=2;i=27" BrowseName="Default Binary">
+    <DisplayName>Default Binary</DisplayName>
+    <References>
+      <Reference ReferenceType="HasTypeDefinition" IsForward="true">i=76</Reference>
+    </References>
+  </UAObject>
+  <UAVariable NodeId="ns=2;i=28" BrowseName="2:NMEA Data" DataType="ns=2;i=26" AccessLevel="3">
+    <DisplayName>NMEA Data</DisplayName>
+    <References>
+      <Reference ReferenceType="HasTypeDefinition" IsForward="true">i=63</Reference>
+      <Reference ReferenceType="HasComponent" IsForward="true">ns=2;i=29</Reference>
+      <Reference ReferenceType="HasComponent" IsForward="true">ns=2;i=30</Reference>
+      <Reference ReferenceType="HasComponent" IsForward="true">ns=2;i=31</Reference>
+      <Reference ReferenceType="HasComponent" IsForward="true">ns=2;i=32</Reference>
+    </References>
+    <Extensions>
+      <Extension>
+        <si:VariableMapping>"DB14 Data for 1517H CPU"."NMEA Data"</si:VariableMapping>
+      </Extension>
+    </Extensions>
+  </UAVariable>
+  <UAVariable NodeId="ns=2;i=29" BrowseName="2:Wind speed" ParentNodeId="ns=2;i=28" DataType="REAL" AccessLevel="3">
+    <DisplayName>Wind speed</DisplayName>
+    <References>
+      <Reference ReferenceType="HasTypeDefinition" IsForward="true">i=63</Reference>
+    </References>
+    <Extensions>
+      <Extension>
+        <si:VariableMapping>"DB14 Data for 1517H CPU"."NMEA Data"."Wind speed"</si:VariableMapping>
+      </Extension>
+    </Extensions>
+  </UAVariable>
+  <UAVariable NodeId="ns=2;i=30" BrowseName="2:SpeedOverGround" ParentNodeId="ns=2;i=28" DataType="REAL" AccessLevel="3">
+    <DisplayName>SpeedOverGround</DisplayName>
+    <References>
+      <Reference ReferenceType="HasTypeDefinition" IsForward="true">i=63</Reference>
+    </References>
+    <Extensions>
+      <Extension>
+        <si:VariableMapping>"DB14 Data for 1517H CPU"."NMEA Data"."SpeedOverGround"</si:VariableMapping>
+      </Extension>
+    </Extensions>
+  </UAVariable>
+  <UAVariable NodeId="ns=2;i=31" BrowseName="2:BaroMeterValue" ParentNodeId="ns=2;i=28" DataType="REAL" AccessLevel="3">
+    <DisplayName>BaroMeterValue</DisplayName>
+    <References>
+      <Reference ReferenceType="HasTypeDefinition" IsForward="true">i=63</Reference>
+    </References>
+    <Extensions>
+      <Extension>
+        <si:VariableMapping>"DB14 Data for 1517H CPU"."NMEA Data"."BaroMeterValue"</si:VariableMapping>
+      </Extension>
+    </Extensions>
+  </UAVariable>
+  <UAVariable NodeId="ns=2;i=32" BrowseName="2:BaroMeterOK" ParentNodeId="ns=2;i=28" DataType="WORD" AccessLevel="3">
+    <DisplayName>BaroMeterOK</DisplayName>
+    <References>
+      <Reference ReferenceType="HasTypeDefinition" IsForward="true">i=63</Reference>
+    </References>
+    <Extensions>
+      <Extension>
+        <si:VariableMapping>"DB14 Data for 1517H CPU"."NMEA Data"."BaroMeterOK"</si:VariableMapping>
+      </Extension>
+    </Extensions>
+  </UAVariable>
+  <UAObject NodeId="ns=2;i=44" BrowseName="Default Binary">
+    <DisplayName>Default Binary</DisplayName>
+    <References>
+      <Reference ReferenceType="HasTypeDefinition" IsForward="true">i=76</Reference>
+    </References>
+  </UAObject>
+  <UAVariable NodeId="ns=2;i=45" BrowseName="2:Batterij Data" DataType="ns=2;i=43" AccessLevel="3">
+    <DisplayName>Batterij Data</DisplayName>
+    <References>
+      <Reference ReferenceType="HasTypeDefinition" IsForward="true">i=63</Reference>
+      <Reference ReferenceType="HasComponent" IsForward="true">ns=2;i=46</Reference>
+      <Reference ReferenceType="HasComponent" IsForward="true">ns=2;i=47</Reference>
+      <Reference ReferenceType="HasComponent" IsForward="true">ns=2;i=48</Reference>
+      <Reference ReferenceType="HasComponent" IsForward="true">ns=2;i=49</Reference>
+      <Reference ReferenceType="HasComponent" IsForward="true">ns=2;i=50</Reference>
+      <Reference ReferenceType="HasComponent" IsForward="true">ns=2;i=51</Reference>
+      <Reference ReferenceType="HasComponent" IsForward="true">ns=2;i=52</Reference>
+      <Reference ReferenceType="HasComponent" IsForward="true">ns=2;i=53</Reference>
+      <Reference ReferenceType="HasComponent" IsForward="true">ns=2;i=54</Reference>
+    </References>
+    <Extensions>
+      <Extension>
+        <si:VariableMapping>"DB14 Data for 1517H CPU"."Batterij Data"</si:VariableMapping>
+      </Extension>
+    </Extensions>
+  </UAVariable>
+  <UAVariable NodeId="ns=2;i=46" BrowseName="2:EB V" ParentNodeId="ns=2;i=45" DataType="REAL" AccessLevel="3">
+    <DisplayName>EB V</DisplayName>
+    <References>
+      <Reference ReferenceType="HasTypeDefinition" IsForward="true">i=63</Reference>
+    </References>
+    <Extensions>
+      <Extension>
+        <si:VariableMapping>"DB14 Data for 1517H CPU"."Batterij Data"."EB V"</si:VariableMapping>
+      </Extension>
+    </Extensions>
+  </UAVariable>
+  <UAVariable NodeId="ns=2;i=47" BrowseName="2:EB I" ParentNodeId="ns=2;i=45" DataType="INT" AccessLevel="3">
+    <DisplayName>EB I</DisplayName>
+    <References>
+      <Reference ReferenceType="HasTypeDefinition" IsForward="true">i=63</Reference>
+    </References>
+    <Extensions>
+      <Extension>
+        <si:VariableMapping>"DB14 Data for 1517H CPU"."Batterij Data"."EB I"</si:VariableMapping>
+      </Extension>
+    </Extensions>
+  </UAVariable>
+  <UAVariable NodeId="ns=2;i=48" BrowseName="2:EB AH" ParentNodeId="ns=2;i=45" DataType="INT" AccessLevel="3">
+    <DisplayName>EB AH</DisplayName>
+    <References>
+      <Reference ReferenceType="HasTypeDefinition" IsForward="true">i=63</Reference>
+    </References>
+    <Extensions>
+      <Extension>
+        <si:VariableMapping>"DB14 Data for 1517H CPU"."Batterij Data"."EB AH"</si:VariableMapping>
+      </Extension>
+    </Extensions>
+  </UAVariable>
+  <UAVariable NodeId="ns=2;i=49" BrowseName="2:SB V" ParentNodeId="ns=2;i=45" DataType="REAL" AccessLevel="3">
+    <DisplayName>SB V</DisplayName>
+    <References>
+      <Reference ReferenceType="HasTypeDefinition" IsForward="true">i=63</Reference>
+    </References>
+    <Extensions>
+      <Extension>
+        <si:VariableMapping>"DB14 Data for 1517H CPU"."Batterij Data"."SB V"</si:VariableMapping>
+      </Extension>
+    </Extensions>
+  </UAVariable>
+  <UAVariable NodeId="ns=2;i=50" BrowseName="2:SB I" ParentNodeId="ns=2;i=45" DataType="INT" AccessLevel="3">
+    <DisplayName>SB I</DisplayName>
+    <References>
+      <Reference ReferenceType="HasTypeDefinition" IsForward="true">i=63</Reference>
+    </References>
+    <Extensions>
+      <Extension>
+        <si:VariableMapping>"DB14 Data for 1517H CPU"."Batterij Data"."SB I"</si:VariableMapping>
+      </Extension>
+    </Extensions>
+  </UAVariable>
+  <UAVariable NodeId="ns=2;i=51" BrowseName="2:SB AH" ParentNodeId="ns=2;i=45" DataType="INT" AccessLevel="3">
+    <DisplayName>SB AH</DisplayName>
+    <References>
+      <Reference ReferenceType="HasTypeDefinition" IsForward="true">i=63</Reference>
+    </References>
+    <Extensions>
+      <Extension>
+        <si:VariableMapping>"DB14 Data for 1517H CPU"."Batterij Data"."SB AH"</si:VariableMapping>
+      </Extension>
+    </Extensions>
+  </UAVariable>
+  <UAVariable NodeId="ns=2;i=52" BrowseName="2:RB V" ParentNodeId="ns=2;i=45" DataType="REAL" AccessLevel="3">
+    <DisplayName>RB V</DisplayName>
+    <References>
+      <Reference ReferenceType="HasTypeDefinition" IsForward="true">i=63</Reference>
+    </References>
+    <Extensions>
+      <Extension>
+        <si:VariableMapping>"DB14 Data for 1517H CPU"."Batterij Data"."RB V"</si:VariableMapping>
+      </Extension>
+    </Extensions>
+  </UAVariable>
+  <UAVariable NodeId="ns=2;i=53" BrowseName="2:RB I" ParentNodeId="ns=2;i=45" DataType="INT" AccessLevel="3">
+    <DisplayName>RB I</DisplayName>
+    <References>
+      <Reference ReferenceType="HasTypeDefinition" IsForward="true">i=63</Reference>
+    </References>
+    <Extensions>
+      <Extension>
+        <si:VariableMapping>"DB14 Data for 1517H CPU"."Batterij Data"."RB I"</si:VariableMapping>
+      </Extension>
+    </Extensions>
+  </UAVariable>
+  <UAVariable NodeId="ns=2;i=54" BrowseName="2:RB AH" ParentNodeId="ns=2;i=45" DataType="INT" AccessLevel="3">
+    <DisplayName>RB AH</DisplayName>
+    <References>
+      <Reference ReferenceType="HasTypeDefinition" IsForward="true">i=63</Reference>
+    </References>
+    <Extensions>
+      <Extension>
+        <si:VariableMapping>"DB14 Data for 1517H CPU"."Batterij Data"."RB AH"</si:VariableMapping>
+      </Extension>
+    </Extensions>
+  </UAVariable>
+  <UAObject NodeId="ns=2;i=66" BrowseName="Default Binary">
+    <DisplayName>Default Binary</DisplayName>
+    <References>
+      <Reference ReferenceType="HasTypeDefinition" IsForward="true">i=76</Reference>
+    </References>
+  </UAObject>
+  <UAVariable NodeId="ns=2;i=67" BrowseName="2:FDS_Status rooms" DataType="ns=2;i=65" AccessLevel="3">
+    <DisplayName>FDS_Status rooms</DisplayName>
+    <References>
+      <Reference ReferenceType="HasTypeDefinition" IsForward="true">i=63</Reference>
+      <Reference ReferenceType="HasComponent" IsForward="true">ns=2;i=70</Reference>
+      <Reference ReferenceType="HasComponent" IsForward="true">ns=2;i=89</Reference>
+    </References>
+    <Extensions>
+      <Extension>
+        <si:VariableMapping>"DB14 Data for 1517H CPU"."FDS_Status rooms"</si:VariableMapping>
+      </Extension>
+    </Extensions>
+  </UAVariable>
+  <UAObject NodeId="ns=2;i=69" BrowseName="Default Binary">
+    <DisplayName>Default Binary</DisplayName>
+    <References>
+      <Reference ReferenceType="HasTypeDefinition" IsForward="true">i=76</Reference>
+    </References>
+  </UAObject>
+  <UAVariable NodeId="ns=2;i=70" BrowseName="2:Fault" ParentNodeId="ns=2;i=67" DataType="ns=2;i=68" AccessLevel="3">
+    <DisplayName>Fault</DisplayName>
+    <References>
+      <Reference ReferenceType="HasTypeDefinition" IsForward="true">i=63</Reference>
+      <Reference ReferenceType="HasComponent" IsForward="true">ns=2;i=71</Reference>
+      <Reference ReferenceType="HasComponent" IsForward="true">ns=2;i=72</Reference>
+      <Reference ReferenceType="HasComponent" IsForward="true">ns=2;i=73</Reference>
+      <Reference ReferenceType="HasComponent" IsForward="true">ns=2;i=74</Reference>
+      <Reference ReferenceType="HasComponent" IsForward="true">ns=2;i=75</Reference>
+      <Reference ReferenceType="HasComponent" IsForward="true">ns=2;i=76</Reference>
+      <Reference ReferenceType="HasComponent" IsForward="true">ns=2;i=77</Reference>
+      <Reference ReferenceType="HasComponent" IsForward="true">ns=2;i=78</Reference>
+      <Reference ReferenceType="HasComponent" IsForward="true">ns=2;i=79</Reference>
+      <Reference ReferenceType="HasComponent" IsForward="true">ns=2;i=80</Reference>
+      <Reference ReferenceType="HasComponent" IsForward="true">ns=2;i=81</Reference>
+      <Reference ReferenceType="HasComponent" IsForward="true">ns=2;i=82</Reference>
+      <Reference ReferenceType="HasComponent" IsForward="true">ns=2;i=83</Reference>
+      <Reference ReferenceType="HasComponent" IsForward="true">ns=2;i=84</Reference>
+      <Reference ReferenceType="HasComponent" IsForward="true">ns=2;i=85</Reference>
+      <Reference ReferenceType="HasComponent" IsForward="true">ns=2;i=86</Reference>
+    </References>
+    <Extensions>
+      <Extension>
+        <si:VariableMapping>"DB14 Data for 1517H CPU"."FDS_Status rooms"."Fault"</si:VariableMapping>
+      </Extension>
+    </Extensions>
+  </UAVariable>
+  <UAVariable NodeId="ns=2;i=71" BrowseName="2:Wheelhouse deck" ParentNodeId="ns=2;i=70" DataType="BOOL" AccessLevel="3">
+    <DisplayName>Wheelhouse deck</DisplayName>
+    <References>
+      <Reference ReferenceType="HasTypeDefinition" IsForward="true">i=63</Reference>
+    </References>
+    <Extensions>
+      <Extension>
+        <si:VariableMapping>"DB14 Data for 1517H CPU"."FDS_Status rooms"."Fault"."Wheelhouse deck"</si:VariableMapping>
+      </Extension>
+    </Extensions>
+  </UAVariable>
+  <UAVariable NodeId="ns=2;i=72" BrowseName="2:Main deck" ParentNodeId="ns=2;i=70" DataType="BOOL" AccessLevel="3">
+    <DisplayName>Main deck</DisplayName>
+    <References>
+      <Reference ReferenceType="HasTypeDefinition" IsForward="true">i=63</Reference>
+    </References>
+    <Extensions>
+      <Extension>
+        <si:VariableMapping>"DB14 Data for 1517H CPU"."FDS_Status rooms"."Fault"."Main deck"</si:VariableMapping>
+      </Extension>
+    </Extensions>
+  </UAVariable>
+  <UAVariable NodeId="ns=2;i=73" BrowseName="2:Lowerdeck guest" ParentNodeId="ns=2;i=70" DataType="BOOL" AccessLevel="3">
+    <DisplayName>Lowerdeck guest</DisplayName>
+    <References>
+      <Reference ReferenceType="HasTypeDefinition" IsForward="true">i=63</Reference>
+    </References>
+    <Extensions>
+      <Extension>
+        <si:VariableMapping>"DB14 Data for 1517H CPU"."FDS_Status rooms"."Fault"."Lowerdeck guest"</si:VariableMapping>
+      </Extension>
+    </Extensions>
+  </UAVariable>
+  <UAVariable NodeId="ns=2;i=74" BrowseName="2:lowerdeck crew" ParentNodeId="ns=2;i=70" DataType="BOOL" AccessLevel="3">
+    <DisplayName>lowerdeck crew</DisplayName>
+    <References>
+      <Reference ReferenceType="HasTypeDefinition" IsForward="true">i=63</Reference>
+    </References>
+    <Extensions>
+      <Extension>
+        <si:VariableMapping>"DB14 Data for 1517H CPU"."FDS_Status rooms"."Fault"."lowerdeck crew"</si:VariableMapping>
+      </Extension>
+    </Extensions>
+  </UAVariable>
+  <UAVariable NodeId="ns=2;i=75" BrowseName="2:Beachclub" ParentNodeId="ns=2;i=70" DataType="BOOL" AccessLevel="3">
+    <DisplayName>Beachclub</DisplayName>
+    <References>
+      <Reference ReferenceType="HasTypeDefinition" IsForward="true">i=63</Reference>
+    </References>
+    <Extensions>
+      <Extension>
+        <si:VariableMapping>"DB14 Data for 1517H CPU"."FDS_Status rooms"."Fault"."Beachclub"</si:VariableMapping>
+      </Extension>
+    </Extensions>
+  </UAVariable>
+  <UAVariable NodeId="ns=2;i=76" BrowseName="2:Engineroom" ParentNodeId="ns=2;i=70" DataType="BOOL" AccessLevel="3">
+    <DisplayName>Engineroom</DisplayName>
+    <References>
+      <Reference ReferenceType="HasTypeDefinition" IsForward="true">i=63</Reference>
+    </References>
+    <Extensions>
+      <Extension>
+        <si:VariableMapping>"DB14 Data for 1517H CPU"."FDS_Status rooms"."Fault"."Engineroom"</si:VariableMapping>
+      </Extension>
+    </Extensions>
+  </UAVariable>
+  <UAVariable NodeId="ns=2;i=77" BrowseName="2:Foreship" ParentNodeId="ns=2;i=70" DataType="BOOL" AccessLevel="3">
+    <DisplayName>Foreship</DisplayName>
+    <References>
+      <Reference ReferenceType="HasTypeDefinition" IsForward="true">i=63</Reference>
+    </References>
+    <Extensions>
+      <Extension>
+        <si:VariableMapping>"DB14 Data for 1517H CPU"."FDS_Status rooms"."Fault"."Foreship"</si:VariableMapping>
+      </Extension>
+    </Extensions>
+  </UAVariable>
+  <UAVariable NodeId="ns=2;i=78" BrowseName="2:Tank deck" ParentNodeId="ns=2;i=70" DataType="BOOL" AccessLevel="3">
+    <DisplayName>Tank deck</DisplayName>
+    <References>
+      <Reference ReferenceType="HasTypeDefinition" IsForward="true">i=63</Reference>
+    </References>
+    <Extensions>
+      <Extension>
+        <si:VariableMapping>"DB14 Data for 1517H CPU"."FDS_Status rooms"."Fault"."Tank deck"</si:VariableMapping>
+      </Extension>
+    </Extensions>
+  </UAVariable>
+  <UAVariable NodeId="ns=2;i=79" BrowseName="2:Owner" ParentNodeId="ns=2;i=70" DataType="BOOL" AccessLevel="3">
+    <DisplayName>Owner</DisplayName>
+    <References>
+      <Reference ReferenceType="HasTypeDefinition" IsForward="true">i=63</Reference>
+    </References>
+    <Extensions>
+      <Extension>
+        <si:VariableMapping>"DB14 Data for 1517H CPU"."FDS_Status rooms"."Fault"."Owner"</si:VariableMapping>
+      </Extension>
+    </Extensions>
+  </UAVariable>
+  <UAVariable NodeId="ns=2;i=80" BrowseName="2:Spare11" ParentNodeId="ns=2;i=70" DataType="BOOL" AccessLevel="3">
+    <DisplayName>Spare11</DisplayName>
+    <References>
+      <Reference ReferenceType="HasTypeDefinition" IsForward="true">i=63</Reference>
+    </References>
+    <Extensions>
+      <Extension>
+        <si:VariableMapping>"DB14 Data for 1517H CPU"."FDS_Status rooms"."Fault"."Spare11"</si:VariableMapping>
+      </Extension>
+    </Extensions>
+  </UAVariable>
+  <UAVariable NodeId="ns=2;i=81" BrowseName="2:Spare12" ParentNodeId="ns=2;i=70" DataType="BOOL" AccessLevel="3">
+    <DisplayName>Spare12</DisplayName>
+    <References>
+      <Reference ReferenceType="HasTypeDefinition" IsForward="true">i=63</Reference>
+    </References>
+    <Extensions>
+      <Extension>
+        <si:VariableMapping>"DB14 Data for 1517H CPU"."FDS_Status rooms"."Fault"."Spare12"</si:VariableMapping>
+      </Extension>
+    </Extensions>
+  </UAVariable>
+  <UAVariable NodeId="ns=2;i=82" BrowseName="2:Spare13" ParentNodeId="ns=2;i=70" DataType="BOOL" AccessLevel="3">
+    <DisplayName>Spare13</DisplayName>
+    <References>
+      <Reference ReferenceType="HasTypeDefinition" IsForward="true">i=63</Reference>
+    </References>
+    <Extensions>
+      <Extension>
+        <si:VariableMapping>"DB14 Data for 1517H CPU"."FDS_Status rooms"."Fault"."Spare13"</si:VariableMapping>
+      </Extension>
+    </Extensions>
+  </UAVariable>
+  <UAVariable NodeId="ns=2;i=83" BrowseName="2:Spare14" ParentNodeId="ns=2;i=70" DataType="BOOL" AccessLevel="3">
+    <DisplayName>Spare14</DisplayName>
+    <References>
+      <Reference ReferenceType="HasTypeDefinition" IsForward="true">i=63</Reference>
+    </References>
+    <Extensions>
+      <Extension>
+        <si:VariableMapping>"DB14 Data for 1517H CPU"."FDS_Status rooms"."Fault"."Spare14"</si:VariableMapping>
+      </Extension>
+    </Extensions>
+  </UAVariable>
+  <UAVariable NodeId="ns=2;i=84" BrowseName="2:Spare15" ParentNodeId="ns=2;i=70" DataType="BOOL" AccessLevel="3">
+    <DisplayName>Spare15</DisplayName>
+    <References>
+      <Reference ReferenceType="HasTypeDefinition" IsForward="true">i=63</Reference>
+    </References>
+    <Extensions>
+      <Extension>
+        <si:VariableMapping>"DB14 Data for 1517H CPU"."FDS_Status rooms"."Fault"."Spare15"</si:VariableMapping>
+      </Extension>
+    </Extensions>
+  </UAVariable>
+  <UAVariable NodeId="ns=2;i=85" BrowseName="2:Spare16" ParentNodeId="ns=2;i=70" DataType="BOOL" AccessLevel="3">
+    <DisplayName>Spare16</DisplayName>
+    <References>
+      <Reference ReferenceType="HasTypeDefinition" IsForward="true">i=63</Reference>
+    </References>
+    <Extensions>
+      <Extension>
+        <si:VariableMapping>"DB14 Data for 1517H CPU"."FDS_Status rooms"."Fault"."Spare16"</si:VariableMapping>
+      </Extension>
+    </Extensions>
+  </UAVariable>
+  <UAVariable NodeId="ns=2;i=86" BrowseName="2:Spare17" ParentNodeId="ns=2;i=70" DataType="BOOL" AccessLevel="3">
+    <DisplayName>Spare17</DisplayName>
+    <References>
+      <Reference ReferenceType="HasTypeDefinition" IsForward="true">i=63</Reference>
+    </References>
+    <Extensions>
+      <Extension>
+        <si:VariableMapping>"DB14 Data for 1517H CPU"."FDS_Status rooms"."Fault"."Spare17"</si:VariableMapping>
+      </Extension>
+    </Extensions>
+  </UAVariable>
+  <UAObject NodeId="ns=2;i=88" BrowseName="Default Binary">
+    <DisplayName>Default Binary</DisplayName>
+    <References>
+      <Reference ReferenceType="HasTypeDefinition" IsForward="true">i=76</Reference>
+    </References>
+  </UAObject>
+  <UAVariable NodeId="ns=2;i=89" BrowseName="2:Disabled" ParentNodeId="ns=2;i=67" DataType="ns=2;i=87" AccessLevel="3">
+    <DisplayName>Disabled</DisplayName>
+    <References>
+      <Reference ReferenceType="HasTypeDefinition" IsForward="true">i=63</Reference>
+      <Reference ReferenceType="HasComponent" IsForward="true">ns=2;i=90</Reference>
+      <Reference ReferenceType="HasComponent" IsForward="true">ns=2;i=91</Reference>
+      <Reference ReferenceType="HasComponent" IsForward="true">ns=2;i=92</Reference>
+      <Reference ReferenceType="HasComponent" IsForward="true">ns=2;i=93</Reference>
+      <Reference ReferenceType="HasComponent" IsForward="true">ns=2;i=94</Reference>
+      <Reference ReferenceType="HasComponent" IsForward="true">ns=2;i=95</Reference>
+      <Reference ReferenceType="HasComponent" IsForward="true">ns=2;i=96</Reference>
+      <Reference ReferenceType="HasComponent" IsForward="true">ns=2;i=97</Reference>
+      <Reference ReferenceType="HasComponent" IsForward="true">ns=2;i=98</Reference>
+      <Reference ReferenceType="HasComponent" IsForward="true">ns=2;i=99</Reference>
+      <Reference ReferenceType="HasComponent" IsForward="true">ns=2;i=100</Reference>
+      <Reference ReferenceType="HasComponent" IsForward="true">ns=2;i=101</Reference>
+      <Reference ReferenceType="HasComponent" IsForward="true">ns=2;i=102</Reference>
+      <Reference ReferenceType="HasComponent" IsForward="true">ns=2;i=103</Reference>
+      <Reference ReferenceType="HasComponent" IsForward="true">ns=2;i=104</Reference>
+      <Reference ReferenceType="HasComponent" IsForward="true">ns=2;i=105</Reference>
+    </References>
+    <Extensions>
+      <Extension>
+        <si:VariableMapping>"DB14 Data for 1517H CPU"."FDS_Status rooms"."Disabled"</si:VariableMapping>
+      </Extension>
+    </Extensions>
+  </UAVariable>
+  <UAVariable NodeId="ns=2;i=90" BrowseName="2:Wheelhouse deck" ParentNodeId="ns=2;i=89" DataType="BOOL" AccessLevel="3">
+    <DisplayName>Wheelhouse deck</DisplayName>
+    <References>
+      <Reference ReferenceType="HasTypeDefinition" IsForward="true">i=63</Reference>
+    </References>
+    <Extensions>
+      <Extension>
+        <si:VariableMapping>"DB14 Data for 1517H CPU"."FDS_Status rooms"."Disabled"."Wheelhouse deck"</si:VariableMapping>
+      </Extension>
+    </Extensions>
+  </UAVariable>
+  <UAVariable NodeId="ns=2;i=91" BrowseName="2:Main deck" ParentNodeId="ns=2;i=89" DataType="BOOL" AccessLevel="3">
+    <DisplayName>Main deck</DisplayName>
+    <References>
+      <Reference ReferenceType="HasTypeDefinition" IsForward="true">i=63</Reference>
+    </References>
+    <Extensions>
+      <Extension>
+        <si:VariableMapping>"DB14 Data for 1517H CPU"."FDS_Status rooms"."Disabled"."Main deck"</si:VariableMapping>
+      </Extension>
+    </Extensions>
+  </UAVariable>
+  <UAVariable NodeId="ns=2;i=92" BrowseName="2:Lowerdeck guest" ParentNodeId="ns=2;i=89" DataType="BOOL" AccessLevel="3">
+    <DisplayName>Lowerdeck guest</DisplayName>
+    <References>
+      <Reference ReferenceType="HasTypeDefinition" IsForward="true">i=63</Reference>
+    </References>
+    <Extensions>
+      <Extension>
+        <si:VariableMapping>"DB14 Data for 1517H CPU"."FDS_Status rooms"."Disabled"."Lowerdeck guest"</si:VariableMapping>
+      </Extension>
+    </Extensions>
+  </UAVariable>
+  <UAVariable NodeId="ns=2;i=93" BrowseName="2:lowerdeck crew" ParentNodeId="ns=2;i=89" DataType="BOOL" AccessLevel="3">
+    <DisplayName>lowerdeck crew</DisplayName>
+    <References>
+      <Reference ReferenceType="HasTypeDefinition" IsForward="true">i=63</Reference>
+    </References>
+    <Extensions>
+      <Extension>
+        <si:VariableMapping>"DB14 Data for 1517H CPU"."FDS_Status rooms"."Disabled"."lowerdeck crew"</si:VariableMapping>
+      </Extension>
+    </Extensions>
+  </UAVariable>
+  <UAVariable NodeId="ns=2;i=94" BrowseName="2:Beachclub" ParentNodeId="ns=2;i=89" DataType="BOOL" AccessLevel="3">
+    <DisplayName>Beachclub</DisplayName>
+    <References>
+      <Reference ReferenceType="HasTypeDefinition" IsForward="true">i=63</Reference>
+    </References>
+    <Extensions>
+      <Extension>
+        <si:VariableMapping>"DB14 Data for 1517H CPU"."FDS_Status rooms"."Disabled"."Beachclub"</si:VariableMapping>
+      </Extension>
+    </Extensions>
+  </UAVariable>
+  <UAVariable NodeId="ns=2;i=95" BrowseName="2:Engineroom" ParentNodeId="ns=2;i=89" DataType="BOOL" AccessLevel="3">
+    <DisplayName>Engineroom</DisplayName>
+    <References>
+      <Reference ReferenceType="HasTypeDefinition" IsForward="true">i=63</Reference>
+    </References>
+    <Extensions>
+      <Extension>
+        <si:VariableMapping>"DB14 Data for 1517H CPU"."FDS_Status rooms"."Disabled"."Engineroom"</si:VariableMapping>
+      </Extension>
+    </Extensions>
+  </UAVariable>
+  <UAVariable NodeId="ns=2;i=96" BrowseName="2:Foreship" ParentNodeId="ns=2;i=89" DataType="BOOL" AccessLevel="3">
+    <DisplayName>Foreship</DisplayName>
+    <References>
+      <Reference ReferenceType="HasTypeDefinition" IsForward="true">i=63</Reference>
+    </References>
+    <Extensions>
+      <Extension>
+        <si:VariableMapping>"DB14 Data for 1517H CPU"."FDS_Status rooms"."Disabled"."Foreship"</si:VariableMapping>
+      </Extension>
+    </Extensions>
+  </UAVariable>
+  <UAVariable NodeId="ns=2;i=97" BrowseName="2:Tank deck" ParentNodeId="ns=2;i=89" DataType="BOOL" AccessLevel="3">
+    <DisplayName>Tank deck</DisplayName>
+    <References>
+      <Reference ReferenceType="HasTypeDefinition" IsForward="true">i=63</Reference>
+    </References>
+    <Extensions>
+      <Extension>
+        <si:VariableMapping>"DB14 Data for 1517H CPU"."FDS_Status rooms"."Disabled"."Tank deck"</si:VariableMapping>
+      </Extension>
+    </Extensions>
+  </UAVariable>
+  <UAVariable NodeId="ns=2;i=98" BrowseName="2:Owner" ParentNodeId="ns=2;i=89" DataType="BOOL" AccessLevel="3">
+    <DisplayName>Owner</DisplayName>
+    <References>
+      <Reference ReferenceType="HasTypeDefinition" IsForward="true">i=63</Reference>
+    </References>
+    <Extensions>
+      <Extension>
+        <si:VariableMapping>"DB14 Data for 1517H CPU"."FDS_Status rooms"."Disabled"."Owner"</si:VariableMapping>
+      </Extension>
+    </Extensions>
+  </UAVariable>
+  <UAVariable NodeId="ns=2;i=99" BrowseName="2:Spare11" ParentNodeId="ns=2;i=89" DataType="BOOL" AccessLevel="3">
+    <DisplayName>Spare11</DisplayName>
+    <References>
+      <Reference ReferenceType="HasTypeDefinition" IsForward="true">i=63</Reference>
+    </References>
+    <Extensions>
+      <Extension>
+        <si:VariableMapping>"DB14 Data for 1517H CPU"."FDS_Status rooms"."Disabled"."Spare11"</si:VariableMapping>
+      </Extension>
+    </Extensions>
+  </UAVariable>
+  <UAVariable NodeId="ns=2;i=100" BrowseName="2:Spare12" ParentNodeId="ns=2;i=89" DataType="BOOL" AccessLevel="3">
+    <DisplayName>Spare12</DisplayName>
+    <References>
+      <Reference ReferenceType="HasTypeDefinition" IsForward="true">i=63</Reference>
+    </References>
+    <Extensions>
+      <Extension>
+        <si:VariableMapping>"DB14 Data for 1517H CPU"."FDS_Status rooms"."Disabled"."Spare12"</si:VariableMapping>
+      </Extension>
+    </Extensions>
+  </UAVariable>
+  <UAVariable NodeId="ns=2;i=101" BrowseName="2:Spare13" ParentNodeId="ns=2;i=89" DataType="BOOL" AccessLevel="3">
+    <DisplayName>Spare13</DisplayName>
+    <References>
+      <Reference ReferenceType="HasTypeDefinition" IsForward="true">i=63</Reference>
+    </References>
+    <Extensions>
+      <Extension>
+        <si:VariableMapping>"DB14 Data for 1517H CPU"."FDS_Status rooms"."Disabled"."Spare13"</si:VariableMapping>
+      </Extension>
+    </Extensions>
+  </UAVariable>
+  <UAVariable NodeId="ns=2;i=102" BrowseName="2:Spare14" ParentNodeId="ns=2;i=89" DataType="BOOL" AccessLevel="3">
+    <DisplayName>Spare14</DisplayName>
+    <References>
+      <Reference ReferenceType="HasTypeDefinition" IsForward="true">i=63</Reference>
+    </References>
+    <Extensions>
+      <Extension>
+        <si:VariableMapping>"DB14 Data for 1517H CPU"."FDS_Status rooms"."Disabled"."Spare14"</si:VariableMapping>
+      </Extension>
+    </Extensions>
+  </UAVariable>
+  <UAVariable NodeId="ns=2;i=103" BrowseName="2:Spare15" ParentNodeId="ns=2;i=89" DataType="BOOL" AccessLevel="3">
+    <DisplayName>Spare15</DisplayName>
+    <References>
+      <Reference ReferenceType="HasTypeDefinition" IsForward="true">i=63</Reference>
+    </References>
+    <Extensions>
+      <Extension>
+        <si:VariableMapping>"DB14 Data for 1517H CPU"."FDS_Status rooms"."Disabled"."Spare15"</si:VariableMapping>
+      </Extension>
+    </Extensions>
+  </UAVariable>
+  <UAVariable NodeId="ns=2;i=104" BrowseName="2:Spare16" ParentNodeId="ns=2;i=89" DataType="BOOL" AccessLevel="3">
+    <DisplayName>Spare16</DisplayName>
+    <References>
+      <Reference ReferenceType="HasTypeDefinition" IsForward="true">i=63</Reference>
+    </References>
+    <Extensions>
+      <Extension>
+        <si:VariableMapping>"DB14 Data for 1517H CPU"."FDS_Status rooms"."Disabled"."Spare16"</si:VariableMapping>
+      </Extension>
+    </Extensions>
+  </UAVariable>
+  <UAVariable NodeId="ns=2;i=105" BrowseName="2:Spare17" ParentNodeId="ns=2;i=89" DataType="BOOL" AccessLevel="3">
+    <DisplayName>Spare17</DisplayName>
+    <References>
+      <Reference ReferenceType="HasTypeDefinition" IsForward="true">i=63</Reference>
+    </References>
+    <Extensions>
+      <Extension>
+        <si:VariableMapping>"DB14 Data for 1517H CPU"."FDS_Status rooms"."Disabled"."Spare17"</si:VariableMapping>
+      </Extension>
+    </Extensions>
+  </UAVariable>
+  <UAObject NodeId="ns=2;i=117" BrowseName="Default Binary">
+    <DisplayName>Default Binary</DisplayName>
+    <References>
+      <Reference ReferenceType="HasTypeDefinition" IsForward="true">i=76</Reference>
+    </References>
+  </UAObject>
+  <UAVariable NodeId="ns=2;i=118" BrowseName="2:HarmonicFilters" DataType="ns=2;i=116" AccessLevel="3">
+    <DisplayName>HarmonicFilters</DisplayName>
+    <References>
+      <Reference ReferenceType="HasTypeDefinition" IsForward="true">i=63</Reference>
+      <Reference ReferenceType="HasComponent" IsForward="true">ns=2;i=119</Reference>
+      <Reference ReferenceType="HasComponent" IsForward="true">ns=2;i=120</Reference>
+      <Reference ReferenceType="HasComponent" IsForward="true">ns=2;i=121</Reference>
+      <Reference ReferenceType="HasComponent" IsForward="true">ns=2;i=122</Reference>
+      <Reference ReferenceType="HasComponent" IsForward="true">ns=2;i=123</Reference>
+      <Reference ReferenceType="HasComponent" IsForward="true">ns=2;i=124</Reference>
+      <Reference ReferenceType="HasComponent" IsForward="true">ns=2;i=125</Reference>
+      <Reference ReferenceType="HasComponent" IsForward="true">ns=2;i=126</Reference>
+      <Reference ReferenceType="HasComponent" IsForward="true">ns=2;i=127</Reference>
+      <Reference ReferenceType="HasComponent" IsForward="true">ns=2;i=128</Reference>
+      <Reference ReferenceType="HasComponent" IsForward="true">ns=2;i=129</Reference>
+      <Reference ReferenceType="HasComponent" IsForward="true">ns=2;i=130</Reference>
+      <Reference ReferenceType="HasComponent" IsForward="true">ns=2;i=131</Reference>
+      <Reference ReferenceType="HasComponent" IsForward="true">ns=2;i=132</Reference>
+      <Reference ReferenceType="HasComponent" IsForward="true">ns=2;i=133</Reference>
+      <Reference ReferenceType="HasComponent" IsForward="true">ns=2;i=134</Reference>
+    </References>
+    <Extensions>
+      <Extension>
+        <si:VariableMapping>"DB14 Data for 1517H CPU"."HarmonicFilters"</si:VariableMapping>
+      </Extension>
+    </Extensions>
+  </UAVariable>
+  <UAVariable NodeId="ns=2;i=119" BrowseName="2:Filter PS Alarm" ParentNodeId="ns=2;i=118" DataType="BOOL" AccessLevel="3">
+    <DisplayName>Filter PS Alarm</DisplayName>
+    <References>
+      <Reference ReferenceType="HasTypeDefinition" IsForward="true">i=63</Reference>
+    </References>
+    <Extensions>
+      <Extension>
+        <si:VariableMapping>"DB14 Data for 1517H CPU"."HarmonicFilters"."Filter PS Alarm"</si:VariableMapping>
+      </Extension>
+    </Extensions>
+  </UAVariable>
+  <UAVariable NodeId="ns=2;i=120" BrowseName="2:Filter SB Alarm" ParentNodeId="ns=2;i=118" DataType="BOOL" AccessLevel="3">
+    <DisplayName>Filter SB Alarm</DisplayName>
+    <References>
+      <Reference ReferenceType="HasTypeDefinition" IsForward="true">i=63</Reference>
+    </References>
+    <Extensions>
+      <Extension>
+        <si:VariableMapping>"DB14 Data for 1517H CPU"."HarmonicFilters"."Filter SB Alarm"</si:VariableMapping>
+      </Extension>
+    </Extensions>
+  </UAVariable>
+  <UAVariable NodeId="ns=2;i=121" BrowseName="2:Bit2" ParentNodeId="ns=2;i=118" DataType="BOOL" AccessLevel="3">
+    <DisplayName>Bit2</DisplayName>
+    <References>
+      <Reference ReferenceType="HasTypeDefinition" IsForward="true">i=63</Reference>
+    </References>
+    <Extensions>
+      <Extension>
+        <si:VariableMapping>"DB14 Data for 1517H CPU"."HarmonicFilters"."Bit2"</si:VariableMapping>
+      </Extension>
+    </Extensions>
+  </UAVariable>
+  <UAVariable NodeId="ns=2;i=122" BrowseName="2:Bit3" ParentNodeId="ns=2;i=118" DataType="BOOL" AccessLevel="3">
+    <DisplayName>Bit3</DisplayName>
+    <References>
+      <Reference ReferenceType="HasTypeDefinition" IsForward="true">i=63</Reference>
+    </References>
+    <Extensions>
+      <Extension>
+        <si:VariableMapping>"DB14 Data for 1517H CPU"."HarmonicFilters"."Bit3"</si:VariableMapping>
+      </Extension>
+    </Extensions>
+  </UAVariable>
+  <UAVariable NodeId="ns=2;i=123" BrowseName="2:Bit4" ParentNodeId="ns=2;i=118" DataType="BOOL" AccessLevel="3">
+    <DisplayName>Bit4</DisplayName>
+    <References>
+      <Reference ReferenceType="HasTypeDefinition" IsForward="true">i=63</Reference>
+    </References>
+    <Extensions>
+      <Extension>
+        <si:VariableMapping>"DB14 Data for 1517H CPU"."HarmonicFilters"."Bit4"</si:VariableMapping>
+      </Extension>
+    </Extensions>
+  </UAVariable>
+  <UAVariable NodeId="ns=2;i=124" BrowseName="2:Bit5" ParentNodeId="ns=2;i=118" DataType="BOOL" AccessLevel="3">
+    <DisplayName>Bit5</DisplayName>
+    <References>
+      <Reference ReferenceType="HasTypeDefinition" IsForward="true">i=63</Reference>
+    </References>
+    <Extensions>
+      <Extension>
+        <si:VariableMapping>"DB14 Data for 1517H CPU"."HarmonicFilters"."Bit5"</si:VariableMapping>
+      </Extension>
+    </Extensions>
+  </UAVariable>
+  <UAVariable NodeId="ns=2;i=125" BrowseName="2:Bit6" ParentNodeId="ns=2;i=118" DataType="BOOL" AccessLevel="3">
+    <DisplayName>Bit6</DisplayName>
+    <References>
+      <Reference ReferenceType="HasTypeDefinition" IsForward="true">i=63</Reference>
+    </References>
+    <Extensions>
+      <Extension>
+        <si:VariableMapping>"DB14 Data for 1517H CPU"."HarmonicFilters"."Bit6"</si:VariableMapping>
+      </Extension>
+    </Extensions>
+  </UAVariable>
+  <UAVariable NodeId="ns=2;i=126" BrowseName="2:Bit7" ParentNodeId="ns=2;i=118" DataType="BOOL" AccessLevel="3">
+    <DisplayName>Bit7</DisplayName>
+    <References>
+      <Reference ReferenceType="HasTypeDefinition" IsForward="true">i=63</Reference>
+    </References>
+    <Extensions>
+      <Extension>
+        <si:VariableMapping>"DB14 Data for 1517H CPU"."HarmonicFilters"."Bit7"</si:VariableMapping>
+      </Extension>
+    </Extensions>
+  </UAVariable>
+  <UAVariable NodeId="ns=2;i=127" BrowseName="2:Bit8" ParentNodeId="ns=2;i=118" DataType="BOOL" AccessLevel="3">
+    <DisplayName>Bit8</DisplayName>
+    <References>
+      <Reference ReferenceType="HasTypeDefinition" IsForward="true">i=63</Reference>
+    </References>
+    <Extensions>
+      <Extension>
+        <si:VariableMapping>"DB14 Data for 1517H CPU"."HarmonicFilters"."Bit8"</si:VariableMapping>
+      </Extension>
+    </Extensions>
+  </UAVariable>
+  <UAVariable NodeId="ns=2;i=128" BrowseName="2:Bit9" ParentNodeId="ns=2;i=118" DataType="BOOL" AccessLevel="3">
+    <DisplayName>Bit9</DisplayName>
+    <References>
+      <Reference ReferenceType="HasTypeDefinition" IsForward="true">i=63</Reference>
+    </References>
+    <Extensions>
+      <Extension>
+        <si:VariableMapping>"DB14 Data for 1517H CPU"."HarmonicFilters"."Bit9"</si:VariableMapping>
+      </Extension>
+    </Extensions>
+  </UAVariable>
+  <UAVariable NodeId="ns=2;i=129" BrowseName="2:Bit10" ParentNodeId="ns=2;i=118" DataType="BOOL" AccessLevel="3">
+    <DisplayName>Bit10</DisplayName>
+    <References>
+      <Reference ReferenceType="HasTypeDefinition" IsForward="true">i=63</Reference>
+    </References>
+    <Extensions>
+      <Extension>
+        <si:VariableMapping>"DB14 Data for 1517H CPU"."HarmonicFilters"."Bit10"</si:VariableMapping>
+      </Extension>
+    </Extensions>
+  </UAVariable>
+  <UAVariable NodeId="ns=2;i=130" BrowseName="2:Bit11" ParentNodeId="ns=2;i=118" DataType="BOOL" AccessLevel="3">
+    <DisplayName>Bit11</DisplayName>
+    <References>
+      <Reference ReferenceType="HasTypeDefinition" IsForward="true">i=63</Reference>
+    </References>
+    <Extensions>
+      <Extension>
+        <si:VariableMapping>"DB14 Data for 1517H CPU"."HarmonicFilters"."Bit11"</si:VariableMapping>
+      </Extension>
+    </Extensions>
+  </UAVariable>
+  <UAVariable NodeId="ns=2;i=131" BrowseName="2:Bit12" ParentNodeId="ns=2;i=118" DataType="BOOL" AccessLevel="3">
+    <DisplayName>Bit12</DisplayName>
+    <References>
+      <Reference ReferenceType="HasTypeDefinition" IsForward="true">i=63</Reference>
+    </References>
+    <Extensions>
+      <Extension>
+        <si:VariableMapping>"DB14 Data for 1517H CPU"."HarmonicFilters"."Bit12"</si:VariableMapping>
+      </Extension>
+    </Extensions>
+  </UAVariable>
+  <UAVariable NodeId="ns=2;i=132" BrowseName="2:Bit13" ParentNodeId="ns=2;i=118" DataType="BOOL" AccessLevel="3">
+    <DisplayName>Bit13</DisplayName>
+    <References>
+      <Reference ReferenceType="HasTypeDefinition" IsForward="true">i=63</Reference>
+    </References>
+    <Extensions>
+      <Extension>
+        <si:VariableMapping>"DB14 Data for 1517H CPU"."HarmonicFilters"."Bit13"</si:VariableMapping>
+      </Extension>
+    </Extensions>
+  </UAVariable>
+  <UAVariable NodeId="ns=2;i=133" BrowseName="2:Bit14" ParentNodeId="ns=2;i=118" DataType="BOOL" AccessLevel="3">
+    <DisplayName>Bit14</DisplayName>
+    <References>
+      <Reference ReferenceType="HasTypeDefinition" IsForward="true">i=63</Reference>
+    </References>
+    <Extensions>
+      <Extension>
+        <si:VariableMapping>"DB14 Data for 1517H CPU"."HarmonicFilters"."Bit14"</si:VariableMapping>
+      </Extension>
+    </Extensions>
+  </UAVariable>
+  <UAVariable NodeId="ns=2;i=134" BrowseName="2:Bit15" ParentNodeId="ns=2;i=118" DataType="BOOL" AccessLevel="3">
+    <DisplayName>Bit15</DisplayName>
+    <References>
+      <Reference ReferenceType="HasTypeDefinition" IsForward="true">i=63</Reference>
+    </References>
+    <Extensions>
+      <Extension>
+        <si:VariableMapping>"DB14 Data for 1517H CPU"."HarmonicFilters"."Bit15"</si:VariableMapping>
+      </Extension>
+    </Extensions>
+  </UAVariable>
+  <UAObject NodeId="ns=2;i=146" BrowseName="Default Binary">
+    <DisplayName>Default Binary</DisplayName>
+    <References>
+      <Reference ReferenceType="HasTypeDefinition" IsForward="true">i=76</Reference>
+    </References>
+  </UAObject>
+  <UAVariable NodeId="ns=2;i=147" BrowseName="2:Generator1" DataType="ns=2;i=145" AccessLevel="3">
+    <DisplayName>Generator1</DisplayName>
+    <References>
+      <Reference ReferenceType="HasTypeDefinition" IsForward="true">i=63</Reference>
+      <Reference ReferenceType="HasComponent" IsForward="true">ns=2;i=148</Reference>
+      <Reference ReferenceType="HasComponent" IsForward="true">ns=2;i=149</Reference>
+      <Reference ReferenceType="HasComponent" IsForward="true">ns=2;i=150</Reference>
+    </References>
+    <Extensions>
+      <Extension>
+        <si:VariableMapping>"DB14 Data for 1517H CPU"."Generator1"</si:VariableMapping>
+      </Extension>
+    </Extensions>
+  </UAVariable>
+  <UAVariable NodeId="ns=2;i=148" BrowseName="2:Status" ParentNodeId="ns=2;i=147" DataType="INT" AccessLevel="3">
+    <DisplayName>Status</DisplayName>
+    <References>
+      <Reference ReferenceType="HasTypeDefinition" IsForward="true">i=63</Reference>
+    </References>
+    <Extensions>
+      <Extension>
+        <si:VariableMapping>"DB14 Data for 1517H CPU"."Generator1"."Status"</si:VariableMapping>
+      </Extension>
+    </Extensions>
+  </UAVariable>
+  <UAVariable NodeId="ns=2;i=149" BrowseName="2:Speed" ParentNodeId="ns=2;i=147" DataType="INT" AccessLevel="3">
+    <DisplayName>Speed</DisplayName>
+    <References>
+      <Reference ReferenceType="HasTypeDefinition" IsForward="true">i=63</Reference>
+    </References>
+    <Extensions>
+      <Extension>
+        <si:VariableMapping>"DB14 Data for 1517H CPU"."Generator1"."Speed"</si:VariableMapping>
+      </Extension>
+    </Extensions>
+  </UAVariable>
+  <UAVariable NodeId="ns=2;i=150" BrowseName="2:Power" ParentNodeId="ns=2;i=147" DataType="INT" AccessLevel="3">
+    <DisplayName>Power</DisplayName>
+    <References>
+      <Reference ReferenceType="HasTypeDefinition" IsForward="true">i=63</Reference>
+    </References>
+    <Extensions>
+      <Extension>
+        <si:VariableMapping>"DB14 Data for 1517H CPU"."Generator1"."Power"</si:VariableMapping>
+      </Extension>
+    </Extensions>
+  </UAVariable>
+  <UADataType NodeId="ns=1;i=3001" BrowseName="1:BYTE">
+    <DisplayName>BYTE</DisplayName>
+    <References>
+      <Reference ReferenceType="HasSubtype" IsForward="false">i=3</Reference>
+    </References>
+  </UADataType>
+  <UADataType NodeId="ns=1;i=3002" BrowseName="1:WORD">
+    <DisplayName>WORD</DisplayName>
+    <References>
+      <Reference ReferenceType="HasSubtype" IsForward="false">i=5</Reference>
+    </References>
+  </UADataType>
+  <UADataType NodeId="ns=1;i=3003" BrowseName="1:DWORD">
+    <DisplayName>DWORD</DisplayName>
+    <References>
+      <Reference ReferenceType="HasSubtype" IsForward="false">i=7</Reference>
+    </References>
+  </UADataType>
+  <UADataType NodeId="ns=1;i=3004" BrowseName="1:LWORD">
+    <DisplayName>LWORD</DisplayName>
+    <References>
+      <Reference ReferenceType="HasSubtype" IsForward="false">i=9</Reference>
+    </References>
+  </UADataType>
+  <UADataType NodeId="ns=1;i=3005" BrowseName="1:S5TIME">
+    <DisplayName>S5TIME</DisplayName>
+    <References>
+      <Reference ReferenceType="HasSubtype" IsForward="false">i=5</Reference>
+    </References>
+  </UADataType>
+  <UADataType NodeId="ns=1;i=3006" BrowseName="1:TIME">
+    <DisplayName>TIME</DisplayName>
+    <References>
+      <Reference ReferenceType="HasSubtype" IsForward="false">i=6</Reference>
+    </References>
+  </UADataType>
+  <UADataType NodeId="ns=1;i=3007" BrowseName="1:LTIME">
+    <DisplayName>LTIME</DisplayName>
+    <References>
+      <Reference ReferenceType="HasSubtype" IsForward="false">i=8</Reference>
+    </References>
+  </UADataType>
+  <UADataType NodeId="ns=1;i=3008" BrowseName="1:DATE">
+    <DisplayName>DATE</DisplayName>
+    <References>
+      <Reference ReferenceType="HasSubtype" IsForward="false">i=5</Reference>
+    </References>
+  </UADataType>
+  <UADataType NodeId="ns=1;i=3011" BrowseName="1:DT">
+    <DisplayName>DT</DisplayName>
+    <References>
+      <Reference ReferenceType="HasSubtype" IsForward="false">i=3</Reference>
+    </References>
+  </UADataType>
+  <UADataType NodeId="ns=1;i=3009" BrowseName="1:TOD">
+    <DisplayName>TOD</DisplayName>
+    <References>
+      <Reference ReferenceType="HasSubtype" IsForward="false">i=7</Reference>
+    </References>
+  </UADataType>
+  <UADataType NodeId="ns=1;i=3010" BrowseName="1:LTOD">
+    <DisplayName>LTOD</DisplayName>
+    <References>
+      <Reference ReferenceType="HasSubtype" IsForward="false">i=9</Reference>
+    </References>
+  </UADataType>
+  <UADataType NodeId="ns=1;i=3067" BrowseName="1:POINTER">
+    <DisplayName>POINTER</DisplayName>
+    <References>
+      <Reference ReferenceType="HasSubtype" IsForward="false">i=3</Reference>
+    </References>
+  </UADataType>
+  <UADataType NodeId="ns=1;i=3065" BrowseName="1:ANY">
+    <DisplayName>ANY</DisplayName>
+    <References>
+      <Reference ReferenceType="HasSubtype" IsForward="true">ns=1;i=3066</Reference>
+      <Reference ReferenceType="HasSubtype" IsForward="false">i=3</Reference>
+    </References>
+  </UADataType>
+  <UADataType NodeId="ns=1;i=3066" BrowseName="1:REMOTE">
+    <DisplayName>REMOTE</DisplayName>
+  </UADataType>
+  <UADataType NodeId="ns=1;i=3012" BrowseName="1:CHAR">
+    <DisplayName>CHAR</DisplayName>
+    <References>
+      <Reference ReferenceType="HasSubtype" IsForward="false">i=3</Reference>
+    </References>
+  </UADataType>
+  <UADataType NodeId="ns=1;i=3013" BrowseName="1:WCHAR">
+    <DisplayName>WCHAR</DisplayName>
+    <References>
+      <Reference ReferenceType="HasSubtype" IsForward="false">i=5</Reference>
+    </References>
+  </UADataType>
+  <UADataType NodeId="ns=1;i=3014" BrowseName="1:STRING">
+    <DisplayName>STRING</DisplayName>
+    <References>
+      <Reference ReferenceType="HasSubtype" IsForward="false">i=12</Reference>
+    </References>
+  </UADataType>
+  <UADataType NodeId="ns=1;i=3015" BrowseName="1:TIMER">
+    <DisplayName>TIMER</DisplayName>
+    <References>
+      <Reference ReferenceType="HasSubtype" IsForward="false">i=5</Reference>
+    </References>
+  </UADataType>
+  <UADataType NodeId="ns=1;i=3016" BrowseName="1:COUNTER">
+    <DisplayName>COUNTER</DisplayName>
+    <References>
+      <Reference ReferenceType="HasSubtype" IsForward="false">i=5</Reference>
+    </References>
+  </UADataType>
+  <UADataType NodeId="ns=1;i=3019" BrowseName="1:BLOCK_DB">
+    <DisplayName>BLOCK_DB</DisplayName>
+    <References>
+      <Reference ReferenceType="HasSubtype" IsForward="false">i=5</Reference>
+    </References>
+  </UADataType>
+  <UADataType NodeId="ns=1;i=3018" BrowseName="1:BLOCK_FB">
+    <DisplayName>BLOCK_FB</DisplayName>
+    <References>
+      <Reference ReferenceType="HasSubtype" IsForward="false">i=5</Reference>
+    </References>
+  </UADataType>
+  <UADataType NodeId="ns=1;i=3017" BrowseName="1:BLOCK_FC">
+    <DisplayName>BLOCK_FC</DisplayName>
+    <References>
+      <Reference ReferenceType="HasSubtype" IsForward="false">i=5</Reference>
+    </References>
+  </UADataType>
+  <UADataType NodeId="ns=1;i=3020" BrowseName="1:BLOCK_SDB">
+    <DisplayName>BLOCK_SDB</DisplayName>
+    <References>
+      <Reference ReferenceType="HasSubtype" IsForward="false">i=5</Reference>
+    </References>
+  </UADataType>
+  <UADataType NodeId="ns=1;i=3024" BrowseName="1:HW_ANY">
+    <DisplayName>HW_ANY</DisplayName>
+    <References>
+      <Reference ReferenceType="HasSubtype" IsForward="true">ns=1;i=3034</Reference>
+      <Reference ReferenceType="HasSubtype" IsForward="true">ns=1;i=3035</Reference>
+      <Reference ReferenceType="HasSubtype" IsForward="true">ns=1;i=3033</Reference>
+      <Reference ReferenceType="HasSubtype" IsForward="false">i=5</Reference>
+    </References>
+  </UADataType>
+  <UADataType NodeId="ns=1;i=3034" BrowseName="1:HW_IO">
+    <DisplayName>HW_IO</DisplayName>
+    <References>
+      <Reference ReferenceType="HasSubtype" IsForward="true">ns=1;i=3037</Reference>
+      <Reference ReferenceType="HasSubtype" IsForward="true">ns=1;i=3036</Reference>
+    </References>
+  </UADataType>
+  <UADataType NodeId="ns=1;i=3035" BrowseName="1:HW_IOSYSTEM">
+    <DisplayName>HW_IOSYSTEM</DisplayName>
+  </UADataType>
+  <UADataType NodeId="ns=1;i=3037" BrowseName="1:HW_MODULE">
+    <DisplayName>HW_MODULE</DisplayName>
+  </UADataType>
+  <UADataType NodeId="ns=1;i=3036" BrowseName="1:HW_SUBMODULE">
+    <DisplayName>HW_SUBMODULE</DisplayName>
+    <References>
+      <Reference ReferenceType="HasSubtype" IsForward="true">ns=1;i=3039</Reference>
+      <Reference ReferenceType="HasSubtype" IsForward="true">ns=1;i=3040</Reference>
+      <Reference ReferenceType="HasSubtype" IsForward="true">ns=1;i=3041</Reference>
+      <Reference ReferenceType="HasSubtype" IsForward="true">ns=1;i=3042</Reference>
+      <Reference ReferenceType="HasSubtype" IsForward="true">ns=1;i=3058</Reference>
+      <Reference ReferenceType="HasSubtype" IsForward="true">ns=1;i=3038</Reference>
+    </References>
+  </UADataType>
+  <UADataType NodeId="ns=1;i=3039" BrowseName="1:HW_IEPORT">
+    <DisplayName>HW_IEPORT</DisplayName>
+  </UADataType>
+  <UADataType NodeId="ns=1;i=3040" BrowseName="1:HW_HSC">
+    <DisplayName>HW_HSC</DisplayName>
+  </UADataType>
+  <UADataType NodeId="ns=1;i=3041" BrowseName="1:HW_PWM">
+    <DisplayName>HW_PWM</DisplayName>
+  </UADataType>
+  <UADataType NodeId="ns=1;i=3042" BrowseName="1:HW_PTO">
+    <DisplayName>HW_PTO</DisplayName>
+  </UADataType>
+  <UADataType NodeId="ns=1;i=3058" BrowseName="1:PORT">
+    <DisplayName>PORT</DisplayName>
+  </UADataType>
+  <UADataType NodeId="ns=1;i=3038" BrowseName="1:HW_INTERFACE">
+    <DisplayName>HW_INTERFACE</DisplayName>
+    <References>
+      <Reference ReferenceType="HasSubtype" IsForward="true">ns=1;i=3044</Reference>
+    </References>
+  </UADataType>
+  <UADataType NodeId="ns=1;i=3033" BrowseName="1:HW_DEVICE">
+    <DisplayName>HW_DEVICE</DisplayName>
+    <References>
+      <Reference ReferenceType="HasSubtype" IsForward="true">ns=1;i=3045</Reference>
+    </References>
+  </UADataType>
+  <UADataType NodeId="ns=1;i=3044" BrowseName="1:HW_DPMASTER">
+    <DisplayName>HW_DPMASTER</DisplayName>
+  </UADataType>
+  <UADataType NodeId="ns=1;i=3045" BrowseName="1:HW_DPSLAVE">
+    <DisplayName>HW_DPSLAVE</DisplayName>
+  </UADataType>
+  <UADataType NodeId="ns=1;i=3026" BrowseName="1:AOM_IDENT">
+    <DisplayName>AOM_IDENT</DisplayName>
+    <References>
+      <Reference ReferenceType="HasSubtype" IsForward="true">ns=1;i=3046</Reference>
+      <Reference ReferenceType="HasSubtype" IsForward="false">i=7</Reference>
+    </References>
+  </UADataType>
+  <UADataType NodeId="ns=1;i=3046" BrowseName="1:EVENT_ANY">
+    <DisplayName>EVENT_ANY</DisplayName>
+    <References>
+      <Reference ReferenceType="HasSubtype" IsForward="true">ns=1;i=3047</Reference>
+    </References>
+  </UADataType>
+  <UADataType NodeId="ns=1;i=3047" BrowseName="1:EVENT_ATT">
+    <DisplayName>EVENT_ATT</DisplayName>
+    <References>
+      <Reference ReferenceType="HasSubtype" IsForward="true">ns=1;i=3048</Reference>
+    </References>
+  </UADataType>
+  <UADataType NodeId="ns=1;i=3048" BrowseName="1:EVENT_HWINT">
+    <DisplayName>EVENT_HWINT</DisplayName>
+  </UADataType>
+  <UADataType NodeId="ns=1;i=3027" BrowseName="1:OB_ANY">
+    <DisplayName>OB_ANY</DisplayName>
+    <References>
+      <Reference ReferenceType="HasSubtype" IsForward="true">ns=1;i=3051</Reference>
+      <Reference ReferenceType="HasSubtype" IsForward="true">ns=1;i=3049</Reference>
+      <Reference ReferenceType="HasSubtype" IsForward="true">ns=1;i=3055</Reference>
+      <Reference ReferenceType="HasSubtype" IsForward="true">ns=1;i=3053</Reference>
+      <Reference ReferenceType="HasSubtype" IsForward="true">ns=1;i=3057</Reference>
+      <Reference ReferenceType="HasSubtype" IsForward="true">ns=1;i=3056</Reference>
+      <Reference ReferenceType="HasSubtype" IsForward="true">ns=1;i=3050</Reference>
+      <Reference ReferenceType="HasSubtype" IsForward="true">ns=1;i=3052</Reference>
+      <Reference ReferenceType="HasSubtype" IsForward="false">i=4</Reference>
+    </References>
+  </UADataType>
+  <UADataType NodeId="ns=1;i=3051" BrowseName="1:OB_CYCLIC">
+    <DisplayName>OB_CYCLIC</DisplayName>
+  </UADataType>
+  <UADataType NodeId="ns=1;i=3049" BrowseName="1:OB_DELAY">
+    <DisplayName>OB_DELAY</DisplayName>
+  </UADataType>
+  <UADataType NodeId="ns=1;i=3055" BrowseName="1:OB_DIAG">
+    <DisplayName>OB_DIAG</DisplayName>
+  </UADataType>
+  <UADataType NodeId="ns=1;i=3053" BrowseName="1:OB_PCYCLE">
+    <DisplayName>OB_PCYCLE</DisplayName>
+  </UADataType>
+  <UADataType NodeId="ns=1;i=3057" BrowseName="1:OB_STARTUP">
+    <DisplayName>OB_STARTUP</DisplayName>
+  </UADataType>
+  <UADataType NodeId="ns=1;i=3056" BrowseName="1:OB_TIMEERROR">
+    <DisplayName>OB_TIMEERROR</DisplayName>
+  </UADataType>
+  <UADataType NodeId="ns=1;i=3050" BrowseName="1:OB_TOD">
+    <DisplayName>OB_TOD</DisplayName>
+  </UADataType>
+  <UADataType NodeId="ns=1;i=3052" BrowseName="1:OB_ATT">
+    <DisplayName>OB_ATT</DisplayName>
+    <References>
+      <Reference ReferenceType="HasSubtype" IsForward="true">ns=1;i=3054</Reference>
+    </References>
+  </UADataType>
+  <UADataType NodeId="ns=1;i=3054" BrowseName="1:OB_HWINT">
+    <DisplayName>OB_HWINT</DisplayName>
+  </UADataType>
+  <UADataType NodeId="ns=1;i=3028" BrowseName="1:RTM">
+    <DisplayName>RTM</DisplayName>
+    <References>
+      <Reference ReferenceType="HasSubtype" IsForward="false">i=5</Reference>
+    </References>
+  </UADataType>
+  <UADataType NodeId="ns=1;i=3029" BrowseName="1:PIP">
+    <DisplayName>PIP</DisplayName>
+    <References>
+      <Reference ReferenceType="HasSubtype" IsForward="false">i=5</Reference>
+    </References>
+  </UADataType>
+  <UADataType NodeId="ns=1;i=3030" BrowseName="1:CONN_ANY">
+    <DisplayName>CONN_ANY</DisplayName>
+    <References>
+      <Reference ReferenceType="HasSubtype" IsForward="true">ns=1;i=3060</Reference>
+      <Reference ReferenceType="HasSubtype" IsForward="true">ns=1;i=3059</Reference>
+      <Reference ReferenceType="HasSubtype" IsForward="false">i=5</Reference>
+    </References>
+  </UADataType>
+  <UADataType NodeId="ns=1;i=3060" BrowseName="1:CONN_OUC">
+    <DisplayName>CONN_OUC</DisplayName>
+  </UADataType>
+  <UADataType NodeId="ns=1;i=3059" BrowseName="1:CONN_PRG">
+    <DisplayName>CONN_PRG</DisplayName>
+  </UADataType>
+  <UADataType NodeId="ns=1;i=3031" BrowseName="1:CONN_R_ID">
+    <DisplayName>CONN_R_ID</DisplayName>
+    <References>
+      <Reference ReferenceType="HasSubtype" IsForward="false">i=7</Reference>
+    </References>
+  </UADataType>
+  <UADataType NodeId="ns=1;i=3032" BrowseName="1:DB_ANY">
+    <DisplayName>DB_ANY</DisplayName>
+    <References>
+      <Reference ReferenceType="HasSubtype" IsForward="true">ns=1;i=3062</Reference>
+      <Reference ReferenceType="HasSubtype" IsForward="true">ns=1;i=3061</Reference>
+      <Reference ReferenceType="HasSubtype" IsForward="false">i=5</Reference>
+    </References>
+  </UADataType>
+  <UADataType NodeId="ns=1;i=3062" BrowseName="1:DB_DYN">
+    <DisplayName>DB_DYN</DisplayName>
+  </UADataType>
+  <UADataType NodeId="ns=1;i=3061" BrowseName="1:DB_WWW">
+    <DisplayName>DB_WWW</DisplayName>
+  </UADataType>
+  <UADataType NodeId="ns=1;i=3400" BrowseName="1:SimaticStructures" IsAbstract="true">
+    <DisplayName>SimaticStructures</DisplayName>
+    <References>
+      <Reference ReferenceType="HasSubtype" IsForward="true">ns=2;i=26</Reference>
+      <Reference ReferenceType="HasSubtype" IsForward="true">ns=2;i=43</Reference>
+      <Reference ReferenceType="HasSubtype" IsForward="true">ns=2;i=65</Reference>
+      <Reference ReferenceType="HasSubtype" IsForward="true">ns=2;i=68</Reference>
+      <Reference ReferenceType="HasSubtype" IsForward="true">ns=2;i=87</Reference>
+      <Reference ReferenceType="HasSubtype" IsForward="true">ns=2;i=116</Reference>
+      <Reference ReferenceType="HasSubtype" IsForward="true">ns=2;i=145</Reference>
+      <Reference ReferenceType="HasSubtype" IsForward="false">i=22</Reference>
+    </References>
+  </UADataType>
+  <UADataType NodeId="ns=1;i=3500" BrowseName="1:SimaticSystemStructures" IsAbstract="true">
+    <DisplayName>SimaticSystemStructures</DisplayName>
+    <References>
+      <Reference ReferenceType="HasSubtype" IsForward="false">i=22</Reference>
+    </References>
+  </UADataType>
+  <UADataType NodeId="ns=1;i=3064" BrowseName="1:SimaticVersion">
+    <DisplayName>SimaticVersion</DisplayName>
+    <References>
+      <Reference ReferenceType="HasEncoding" IsForward="true">ns=1;i=5001</Reference>
+      <Reference ReferenceType="HasSubtype" IsForward="false">i=22</Reference>
+    </References>
+    <Definition Name="1:SimaticVersion">
+      <Field Name="Major" DataType="i=6" />
+      <Field Name="Minor" DataType="i=6" />
+      <Field Name="Build" DataType="i=6" />
+    </Definition>
+  </UADataType>
+  <UADataType NodeId="ns=2;i=26" BrowseName="2:&quot;DB14 Data for 1517H CPU&quot;.&quot;NMEA Data&quot;">
+    <DisplayName>"DB14 Data for 1517H CPU"."NMEA Data"</DisplayName>
+    <References>
+      <Reference ReferenceType="HasEncoding" IsForward="true">ns=2;i=27</Reference>
+    </References>
+    <Definition Name="2:&quot;DB14 Data for 1517H CPU&quot;.&quot;NMEA Data&quot;">
+      <Field Name="Wind speed" DataType="REAL" />
+      <Field Name="SpeedOverGround" DataType="REAL" />
+      <Field Name="BaroMeterValue" DataType="REAL" />
+      <Field Name="BaroMeterOK" DataType="WORD" />
+    </Definition>
+  </UADataType>
+  <UADataType NodeId="ns=2;i=43" BrowseName="2:&quot;DB14 Data for 1517H CPU&quot;.&quot;Batterij Data&quot;">
+    <DisplayName>"DB14 Data for 1517H CPU"."Batterij Data"</DisplayName>
+    <References>
+      <Reference ReferenceType="HasEncoding" IsForward="true">ns=2;i=44</Reference>
+    </References>
+    <Definition Name="2:&quot;DB14 Data for 1517H CPU&quot;.&quot;Batterij Data&quot;">
+      <Field Name="EB V" DataType="REAL" />
+      <Field Name="EB I" DataType="INT" />
+      <Field Name="EB AH" DataType="INT" />
+      <Field Name="SB V" DataType="REAL" />
+      <Field Name="SB I" DataType="INT" />
+      <Field Name="SB AH" DataType="INT" />
+      <Field Name="RB V" DataType="REAL" />
+      <Field Name="RB I" DataType="INT" />
+      <Field Name="RB AH" DataType="INT" />
+    </Definition>
+  </UADataType>
+  <UADataType NodeId="ns=2;i=65" BrowseName="2:&quot;DB14 Data for 1517H CPU&quot;.&quot;FDS_Status rooms&quot;">
+    <DisplayName>"DB14 Data for 1517H CPU"."FDS_Status rooms"</DisplayName>
+    <References>
+      <Reference ReferenceType="HasEncoding" IsForward="true">ns=2;i=66</Reference>
+    </References>
+    <Definition Name="2:&quot;DB14 Data for 1517H CPU&quot;.&quot;FDS_Status rooms&quot;">
+      <Field Name="Fault" DataType="ns=2;i=68" />
+      <Field Name="Disabled" DataType="ns=2;i=87" />
+    </Definition>
+  </UADataType>
+  <UADataType NodeId="ns=2;i=68" BrowseName="2:&quot;DB14 Data for 1517H CPU&quot;.&quot;FDS_Status rooms&quot;.&quot;Fault&quot;">
+    <DisplayName>"DB14 Data for 1517H CPU"."FDS_Status rooms"."Fault"</DisplayName>
+    <References>
+      <Reference ReferenceType="HasEncoding" IsForward="true">ns=2;i=69</Reference>
+    </References>
+    <Definition Name="2:&quot;DB14 Data for 1517H CPU&quot;.&quot;FDS_Status rooms&quot;.&quot;Fault&quot;">
+      <Field Name="Wheelhouse deck" DataType="BOOL" />
+      <Field Name="Main deck" DataType="BOOL" />
+      <Field Name="Lowerdeck guest" DataType="BOOL" />
+      <Field Name="lowerdeck crew" DataType="BOOL" />
+      <Field Name="Beachclub" DataType="BOOL" />
+      <Field Name="Engineroom" DataType="BOOL" />
+      <Field Name="Foreship" DataType="BOOL" />
+      <Field Name="Tank deck" DataType="BOOL" />
+      <Field Name="Owner" DataType="BOOL" />
+      <Field Name="Spare11" DataType="BOOL" />
+      <Field Name="Spare12" DataType="BOOL" />
+      <Field Name="Spare13" DataType="BOOL" />
+      <Field Name="Spare14" DataType="BOOL" />
+      <Field Name="Spare15" DataType="BOOL" />
+      <Field Name="Spare16" DataType="BOOL" />
+      <Field Name="Spare17" DataType="BOOL" />
+    </Definition>
+  </UADataType>
+  <UADataType NodeId="ns=2;i=87" BrowseName="2:&quot;DB14 Data for 1517H CPU&quot;.&quot;FDS_Status rooms&quot;.&quot;Disabled&quot;">
+    <DisplayName>"DB14 Data for 1517H CPU"."FDS_Status rooms"."Disabled"</DisplayName>
+    <References>
+      <Reference ReferenceType="HasEncoding" IsForward="true">ns=2;i=88</Reference>
+    </References>
+    <Definition Name="2:&quot;DB14 Data for 1517H CPU&quot;.&quot;FDS_Status rooms&quot;.&quot;Disabled&quot;">
+      <Field Name="Wheelhouse deck" DataType="BOOL" />
+      <Field Name="Main deck" DataType="BOOL" />
+      <Field Name="Lowerdeck guest" DataType="BOOL" />
+      <Field Name="lowerdeck crew" DataType="BOOL" />
+      <Field Name="Beachclub" DataType="BOOL" />
+      <Field Name="Engineroom" DataType="BOOL" />
+      <Field Name="Foreship" DataType="BOOL" />
+      <Field Name="Tank deck" DataType="BOOL" />
+      <Field Name="Owner" DataType="BOOL" />
+      <Field Name="Spare11" DataType="BOOL" />
+      <Field Name="Spare12" DataType="BOOL" />
+      <Field Name="Spare13" DataType="BOOL" />
+      <Field Name="Spare14" DataType="BOOL" />
+      <Field Name="Spare15" DataType="BOOL" />
+      <Field Name="Spare16" DataType="BOOL" />
+      <Field Name="Spare17" DataType="BOOL" />
+    </Definition>
+  </UADataType>
+  <UADataType NodeId="ns=2;i=116" BrowseName="2:&quot;DB14 Data for 1517H CPU&quot;.&quot;HarmonicFilters&quot;">
+    <DisplayName>"DB14 Data for 1517H CPU"."HarmonicFilters"</DisplayName>
+    <References>
+      <Reference ReferenceType="HasEncoding" IsForward="true">ns=2;i=117</Reference>
+    </References>
+    <Definition Name="2:&quot;DB14 Data for 1517H CPU&quot;.&quot;HarmonicFilters&quot;">
+      <Field Name="Filter PS Alarm" DataType="BOOL" />
+      <Field Name="Filter SB Alarm" DataType="BOOL" />
+      <Field Name="Bit2" DataType="BOOL" />
+      <Field Name="Bit3" DataType="BOOL" />
+      <Field Name="Bit4" DataType="BOOL" />
+      <Field Name="Bit5" DataType="BOOL" />
+      <Field Name="Bit6" DataType="BOOL" />
+      <Field Name="Bit7" DataType="BOOL" />
+      <Field Name="Bit8" DataType="BOOL" />
+      <Field Name="Bit9" DataType="BOOL" />
+      <Field Name="Bit10" DataType="BOOL" />
+      <Field Name="Bit11" DataType="BOOL" />
+      <Field Name="Bit12" DataType="BOOL" />
+      <Field Name="Bit13" DataType="BOOL" />
+      <Field Name="Bit14" DataType="BOOL" />
+      <Field Name="Bit15" DataType="BOOL" />
+    </Definition>
+  </UADataType>
+  <UADataType NodeId="ns=2;i=145" BrowseName="2:&quot;DB14 Data for 1517H CPU&quot;.&quot;Generator1&quot;">
+    <DisplayName>"DB14 Data for 1517H CPU"."Generator1"</DisplayName>
+    <References>
+      <Reference ReferenceType="HasEncoding" IsForward="true">ns=2;i=146</Reference>
+    </References>
+    <Definition Name="2:&quot;DB14 Data for 1517H CPU&quot;.&quot;Generator1&quot;">
+      <Field Name="Status" DataType="INT" />
+      <Field Name="Speed" DataType="INT" />
+      <Field Name="Power" DataType="INT" />
+    </Definition>
+  </UADataType>
+</UANodeSet>
